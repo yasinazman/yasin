@@ -1,0 +1,731 @@
+                                        /*PART HOME*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background1.3.png);
+    background-size: cover;
+}
+
+.logo a{
+    color: #79171A;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+nav{
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: #B8805A;
+}
+
+.detail{
+    margin-left: 13%;
+    margin-top: 8%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detail p1{
+    color: #79171A;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.detail p{
+    color: #705444;
+    line-height: 25px;
+}
+
+.detail a{
+    background: #705444;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+/*kedudukan gambar*/
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+/*sizing gambar*/
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+/*gambar gerak bila mouse kene*/
+.image:hover .shape{
+    bottom: 40px;
+}
+
+/*gambar gerak bila mouse kene*/
+.image:hover .men{
+    left: 45%;
+}
+
+                                        /*PART ABOUT*/
+.yasin{
+    position: relative;
+    background: white;
+    background-image: url("images/background1.png");
+    background-repeat: repeat-y;
+}
+
+.container {
+    max-width: 1000px;
+    width: auto;
+    margin-top: 30px;
+    margin:  auto;
+    padding: 5%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    background: #8c4d23;
+    box-shadow: 10px 10px ;
+}
+
+.about img {
+    width: 200px;
+    height: 270px;
+}
+
+.about .description {
+    flex: 1;
+}
+
+.about .description h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    color: #ffcc00;
+}
+
+.about .description p {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: white;
+}
+
+
+/*BIODATA*/
+.biodata-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff7f0;
+    width: 80%;
+    max-width: 1200px;
+    padding: 40px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 1000px;
+    width: auto;
+    margin:  auto;
+    padding: 5%;
+}
+
+/* Left Section */
+
+.biodata-details {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.biodata-details h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-family: 'Century Gothic';
+}
+
+.highlight {
+    color: black;
+    font-weight: bold;
+}
+
+.biodata-details h1 span {
+    color: #8c4d23;
+    font-family: 'Century Gothic';
+}
+
+.label {
+    font-weight: bold;
+    color: #8c4d23;
+    font-size: 28px;
+    font-family: 'century gothic';
+}
+
+.biodata-details p {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+    padding: 2%;
+    font-family: 'century gothic';
+}
+
+/* Right Section */
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;    
+}
+
+.photo-card {
+    background-color: #8c4d23;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 477px;
+    width: 300px;
+}
+
+.photo-card .name {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 3em;
+    font-family: 'vivaldi';
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.photo-card img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/*PART EXPERIENCEE*/
+.experience{
+   position: relative;
+   background-image: url(images/background1.2.png);
+   background-repeat: repeat-y;
+   background-size: cover; /* Ensure the image covers the container */
+   background-position: center;
+}
+
+.exsatu img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;   
+    display: block;
+}
+
+.exdua {
+    width: 100%;
+    height: 115vh;
+    background-image: url(images/background3.png);
+    background-size: 100%;
+    
+}
+
+.exdua h1{
+    font-family: 'century gothic';
+    text-align: center;
+    padding: 50px;
+    font-size: 3em;
+    color: #7c4421;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+}
+
+
+.extiga{
+    width: 100%;
+    height: 115vh;
+    background-image: url(images/background4.png);
+    background-size: 100%;
+}
+
+.extiga h1{
+    font-family: 'century gothic';
+    text-align: center;
+    padding: 50px;
+    font-size: 2.5em;
+    color: #f1ebe5;
+    margin: 0%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+}
+
+.exempat{
+    width: 100%;
+    height: 115vh;
+    background-image: url(images/background5.png);
+    background-size: 100%;
+}
+
+.exempat h1{
+    font-family: 'century gothic';
+    text-align: center;
+    padding: 50px;
+    font-size: 2.5em;
+    color: #7c4421;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+}
+
+
+.eximage {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    gap: 100px; /* Space between images */
+    margin-bottom: 100px; /* Bottom margin for spacing */
+}
+
+.gallery-image {
+    max-width: 380px; 
+    height: auto; 
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*transition*/
+}
+
+.gallery-image:hover {
+    transform: scale(1.1); /* Slightly increase the size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Add a shadow for depth */
+    cursor: pointer; /* Change the cursor to pointer */
+}
+
+/*PART EDUCATIONNN*/
+
+.education{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/eduback.png);
+    background-size: cover;
+ }
+ 
+ .edusatu img{
+     width: 100%;
+     height: 100%; 
+     object-fit: cover;   
+     display: block;
+ }
+ 
+ .edudua {
+     width: 100%;
+     height: 115vh;
+     background-image: url(images/education2.png);
+     background-size: 100%;
+     text-align: center;
+ }
+ 
+ 
+ 
+ .edutiga{
+     width: 100%;
+     height: 115vh;
+     background-image: url(images/education3.png);
+     background-size: 100%;
+     text-align: center;
+ }
+ 
+ .eduimage {
+     display: flex;
+     justify-content: center; /* Center images horizontally */
+     gap: 100px; /* Space between images */
+     margin-top: 100px;
+     margin-bottom: 100px; /* Bottom margin for spacing */
+     padding: 4%;
+     background: linear-gradient(135deg, #40505f, #2c3e50); /* Gradient background only for the h1 */
+     display: inline-block; /* Ensures the background wraps tightly around the text */
+     border-radius: 20px; /* Rounded corners for a polished look */
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9); /* Adds depth */
+ }
+
+ .eduimage h1{
+     font-family: 'century gothic';
+     text-align: center;
+     margin-bottom: 5%;
+     font-size: 2em;
+     color: white;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 10);
+ }
+
+ .eduimage h2{
+    color: white;
+    font-family: arial;
+    margin-top: 1%;
+    font-size: 20px;
+ }
+ 
+ .edugallery{
+     max-width: 480px; 
+     height: center; 
+     border-radius: 8px; /* Rounded corners */
+     transition: transform 0.3s ease, box-shadow 0.3s ease; /*transition*/
+ }
+ 
+ .edugallery:hover {
+     transform: scale(1.1); /* Slightly increase the size */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Add a shadow for depth */
+     cursor: pointer; /* Change the cursor to pointer */
+ }
+
+
+ /*PART FAMILYY*/
+ .family{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/famback.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    text-align: center;
+ }
+
+ .fam1{
+    display: flex;
+     justify-content: space-between; /* Center images horizontally */
+     gap: 100px; /* Space between images */
+     margin-bottom: 100px; /* Bottom margin for spacing */
+     padding: 4%;
+     background-color: #423f32; /* Gradient background only for the h1 */
+     display: inline-block; /* Ensures the background wraps tightly around the text */
+     border-radius: 20px; /* Rounded corners for a polished look */
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9); /* Adds depth */
+ }
+
+ .fam1 h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'century gothic';
+    color: #cdcfc0;
+ }
+
+.family img{
+    margin-top: 40px;
+}
+
+
+.famgallery {
+    max-width: 380px; 
+    height: auto; 
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px; /* Horizontal margins for spacing */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*transition*/
+}
+
+.famgallery:hover {
+    transform: scale(1.1); /* Slightly increase the size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Add a shadow for depth */
+    cursor: pointer; /* Change the cursor to pointer */
+}
+
+/*PART GALLERYY*/
+/*first*/
+.gallery{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.centeredgallery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'century gothic';
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.gallery1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.gallery1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.gallery1 video{
+    position: relative;
+    width: 100; /* Desired width */
+    height: 400px; /* Desired height */
+    overflow: hidden;
+}
+
+.vidme1 {
+    width: 80%; /* Makes the video fill the container */
+    height: 100%;
+    object-fit: cover; /* Ensures the video content is cropped to fit the container */
+    object-position: center; /* Centers the video within the container */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0 10px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    box-sizing: border-box;
+  }
+  
+  .column img {
+    display: block;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .column video {
+    display: block;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
+.gallery3{
+    height: auto;
+    width: 50%;
+}
+
+                                           /* PART Contact Me*/
+
+.contactimage {
+    position: fixed; /* Keeps the image in place even when scrolling */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    z-index: -1; /* Places the image behind other content */
+    overflow: hidden; /* Ensures no scrollbars appear for the image */
+}
+
+.contactimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container proportionally */
+}
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Image Section */
+  .contact-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Contact Details Section */
+  .contact-details {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-details h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-family: 'century gothic';
+    color: #2d3946;
+  }
+  
+  /* Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'century gothic';
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #2d3d4e;
+    color: #fff;
+    font-family: 'century gothic';
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #586673;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .contact-info h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'century gothic';
+
+  }
+
+  .contact-info p {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'century gothic';
+  }
+  
+
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .social-icons a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.3);
+  }
+  
+
+                            /*FOOTERRRRRRRRR*/
+
+footer {
+    background-color: #2F180B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
